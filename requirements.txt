@@ -5,3 +5,4 @@ plotly
 arch
 statsmodels
 matplotlib
+openpyxl
