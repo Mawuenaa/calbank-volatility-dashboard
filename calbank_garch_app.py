@@ -109,7 +109,7 @@ col1, col2 = st.columns(2)
 with col1:
     col_icon1, col_title1 = st.columns([1, 8])
     with col_icon1:
-        st.image(r"images/trend.png", width=60)
+        st.image("images/trend.png", width=60)
     with col_title1:
         st.markdown("<div style='font-weight: bold; color: grey; font-size: 23px'>Closing Price</div>", unsafe_allow_html=True)
 
@@ -122,7 +122,7 @@ with col1:
 with col2:
     col_icon2, col_title2 = st.columns([1, 8])
     with col_icon2:
-        st.image(r"images/growth.png", width=60)
+        st.image("images/growth.png", width=60)
     with col_title2:
         st.markdown("<div style='font-weight: bold; color: grey; font-size: 23px'>Log Returns</div>", unsafe_allow_html=True)
 
@@ -143,7 +143,7 @@ result = model.fit(disp='off')
 # Volatility Over Time (from the GARCH model)
 col_vol_icon, col_vol_title = st.columns([1, 15])
 with col_vol_icon:
-    st.image(r"images/volatility.png", width=50)
+    st.image("images/volatility.png", width=50)
 with col_vol_title:
     st.markdown("<div style='font-weight: bold; color: grey; font-size: 30px'>Volatility Over Time</div>", unsafe_allow_html=True)
 
@@ -160,7 +160,7 @@ st.markdown("<hr style='margin-top: 20px; margin-bottom: 20px; border: 1px solid
 # ACF and PACF of Squared Returns (Styled)
 col_icon, col_title = st.columns([1, 16.5])
 with col_icon:
-    st.image(r"images/return-on-investment.png", width=42)
+    st.image("images/return-on-investment.png", width=42)
 with col_title:
     st.markdown(
         "<div style='font-weight: bold; color: grey; font-size: 25px; padding-top: 5px'>ACF & PACF of Squared Returns</div>",
@@ -233,7 +233,7 @@ st.markdown("<hr style='margin-top: 20px; margin-bottom: 20px; border: 1px solid
 # 30-Day Volatility Forecast
 col_forecast_icon, col_forecast_title = st.columns([1, 16])
 with col_forecast_icon:
-    st.image(r"images/business-forcasting.png", width=45)  # <-- use your own image path here
+    st.image("images/business-forcasting.png", width=45)  # <-- use your own image path here
 with col_forecast_title:
     st.markdown("<div style='font-weight: bold; color: grey; font-size: 25px;'>30-Day Volatility Forecast</div>", unsafe_allow_html=True)
 
