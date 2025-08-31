@@ -60,4 +60,4 @@ Volatility modeling is essential for **risk management and financial modeling**.
 
 ## 📬 Contact
 
-For questions or collaboration, contact **Mawuenaa** at gabrielapomah03@gmail.com.
+For questions or collaboration, contact **Mawuenaa** at gabriel.mawuena.apomah@gmail.com.
